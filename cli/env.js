@@ -1,6 +1,6 @@
 // PURPOSE: examine a prevalent environment variable
-// RUN Mac/Linux:   FOO=BAR node --experimental-report --report-on-signal env.js
-// RUN Windows:     set FOO=BAR&&node --experimental-report --report-on-signal env.js
+// RUN Mac/Linux:   FOO=BAR node --report-on-signal env.js
+// RUN Windows:     set FOO=BAR&&node --report-on-signal env.js
 // NOTICE: Signal based report generation is not supported in Windows. More info: https://nodejs.org/dist/latest-v13.x/docs/api/report.html
 // CHECK:
 // 1. A report is generated

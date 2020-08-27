@@ -1,5 +1,5 @@
 // PURPOSE: verify that report on fatalerror can be configured
-// RUN: node --experimental-report --max-old-space-size=20 fatalerror.js
+// RUN: node --max-old-space-size=50 fatalerror.js
 // CHECK: The report is generated upon fatal error (OOM)
 
 process.report.reportOnFatalError = true

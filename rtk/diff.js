@@ -16,7 +16,7 @@ if (process.argv[2] === 'child') {
 
 // Parent sequence
   const spawn = require('child_process').spawn
-  const args = ['--experimental-report', __filename, 'child']
+  const args = [__filename, 'child']
 
   // set an env called FOO with value X
   process.env.FOO = 'X'

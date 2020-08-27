@@ -1,5 +1,5 @@
 // PURPOSE: verify that report on exception can be configured
-// RUN: node --experimental-report exception.js
+// RUN: node exception.js
 // CHECK: The report is generated upon uncaught exception
 
 process.report.reportOnUncaughtException = true

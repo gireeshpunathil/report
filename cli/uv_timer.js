@@ -1,5 +1,5 @@
 // PURPOSE: Inspect libuv section for timer data
-// RUN: node --experimental-report uv_timer.js
+// RUN: node uv_timer.js
 // CHECK:
 // 1. A report is generated
 // 2. Report event is recorded as "JavaScript API"

@@ -1,5 +1,5 @@
 // PURPOSE: verify that report filename can be configured
-// RUN: node --experimental-report filename.js
+// RUN: node filename.js
 // CHECK: The report is generated with the specified filename
 
 process.report.filename = 'myreport.json'

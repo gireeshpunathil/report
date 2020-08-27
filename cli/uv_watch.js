@@ -1,5 +1,5 @@
 // PURPOSE: Inspect libuv section for file watch data
-// RUN: node --experimental-report uv_watch.js
+// RUN: node uv_watch.js
 // CHECK:
 // 1. A report is generated
 // 2. Report event is recorded as "JavaScript API"

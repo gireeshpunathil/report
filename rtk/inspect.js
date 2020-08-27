@@ -1,5 +1,5 @@
 // PURPOSE: Make use of report tool kit's inspect functionality
-// RUN: node --experimental-report --max-old-space-size=20 inspect.js
+// RUN: node --max-old-space-size=50 inspect.js
 // CHECK:
 // 1. A report is generated
 // 2. Report event is recorded as "Javascript API"

@@ -1,5 +1,5 @@
 // PURPOSE: Inspect libuv section for TCP data
-// RUN: node --experimental-report uv_tcp.js
+// RUN: node uv_tcp.js
 // CHECK:
 // 1. A report is generated
 // 2. Report event is recorded as "JavaScript API"

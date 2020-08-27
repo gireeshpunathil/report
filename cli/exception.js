@@ -1,5 +1,5 @@
 // PURPOSE: simulate an uncaught exception
-// RUN: node --experimental-report --report-uncaught-exception exception.js
+// RUN: node --report-uncaught-exception exception.js
 // CHECK:
 // 1. An uncaught exception has occurred (of type ERR_INVALID_PROTOCOL)
 // 2. A report is generated on exception

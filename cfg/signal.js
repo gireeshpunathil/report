@@ -1,5 +1,5 @@
 // PURPOSE: verify that report on signal can be configured
-// RUN: node --experimental-report signal.js
+// RUN: node signal.js
 // NOTICE: Signal based report generation is not supported in Windows. More info: https://nodejs.org/dist/latest-v13.x/docs/api/report.html
 // CHECK: The report is generated upon the signal reception
 

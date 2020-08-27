@@ -1,5 +1,5 @@
 // PURPOSE: Inspect libuv section for UDP  data
-// RUN: node --experimental-report uv_udp.js
+// RUN: node uv_udp.js
 // CHECK:
 // 1. A report is generated
 // 2. Report event is recorded as "JavaScript API"

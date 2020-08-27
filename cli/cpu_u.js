@@ -1,5 +1,5 @@
 // PURPOSE: examine the CPU consumed by the program in the user space
-// RUN: node --experimental-report cpu_u.js
+// RUN: node cpu_u.js
 // CHECK:
 // 1. A report is generated
 // 2. resourceUsage section is present in the report

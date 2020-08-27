@@ -1,5 +1,5 @@
 // PURPOSE: verify that report directory can be configured
-// RUN: node --experimental-report dir.js
+// RUN: node dir.js
 // CHECK: The report is generated in the specified folder
 
 
